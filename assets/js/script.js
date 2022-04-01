@@ -9,4 +9,15 @@ function gotData(city,state,country) {
     weather = data;
 }
 
+<<<<<<< HEAD
 gotData("atlanta","GA", "USA");
+=======
+function draw() {
+    background(0);
+    if (weather) {
+        ellipse(100, 100, weather.current.humidity);
+        ellipse(300, 100, weather.current.uvi);
+    } 
+}
+gotData("atlanta","GA", "USA");
+>>>>>>> eab78ccfd1d4caf6c03027a755db3f0409e396a0
